@@ -1,1 +1,1 @@
-body,html{margin:0;padding:0}
+body,html{margin:0;padding:0}body .legend,html .legend{left:10px;position:fixed;top:0}body .legend>div,html .legend>div{display:inline-block;margin:0 20px 5px 0}body .legend>div .indicator,html .legend>div .indicator{vertical-align:middle}body .legend>div .label,html .legend>div .label{font-family:sans-serif;line-height:20px;vertical-align:middle}

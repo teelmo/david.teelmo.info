@@ -1,4 +1,21 @@
 html, body {
   padding: 0;
   margin: 0;
+  .legend {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    > div {
+      display: inline-block;
+      margin: 0 20px 5px 0;
+      .indicator {
+        vertical-align: middle;
+      }
+      .label {
+        font-family: sans-serif;
+        line-height: 20px;
+        vertical-align: middle;
+      }
+    }
+  }
 }

@@ -48,6 +48,28 @@ function App() {
   return (
     <div className="app">
       <div className="map" />
+      <div className="legend">
+        <div>
+          <span
+            className="indicator"
+            style={{
+              backgroundColor: '#A05FB4', display: 'inline-block', width: '20px', height: '20px'
+            }}
+          />
+          {' '}
+          <span className="label">David Alejandro</span>
+        </div>
+        <div>
+          <span
+            className="indicator"
+            style={{
+              backgroundColor: 'rgba(188, 213, 209, 1.0)', display: 'inline-block', width: '20px', height: '20px'
+            }}
+          />
+          {' '}
+          <span className="label">&quot;just&quot; David</span>
+        </div>
+      </div>
       <noscript>Your browser does not support JavaScript!</noscript>
     </div>
   );
