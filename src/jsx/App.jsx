@@ -12,16 +12,17 @@ function App() {
   const initMap = useCallback(() => {
     map.current = new Datamap({
       data: { // http://www.worldatlas.com/aatlas/ctycodes.htm
-        AUT: { fillKey: 'authorHasTraveledTo' },
-        CHE: { fillKey: 'authorHasTraveledTo' },
-        ECU: { fillKey: 'authorHasTraveledTo' },
-        CHL: { fillKey: 'authorHasTraveledTo' },
-        MEX: { fillKey: 'authorHasTraveledTo' },
-        ESP: { fillKey: 'authorHasTraveledTo' },
+        AUT: { fillKey: 'david' },
+        CHE: { fillKey: 'david' },
+        ECU: { fillKey: 'davidalejandro' },
+        CHL: { fillKey: 'davidalejandro' },
+        MEX: { fillKey: 'davidalejandro' },
+        ESP: { fillKey: 'david' },
       },
       element: document.querySelector('.map'),
       fills: {
-        authorHasTraveledTo: 'rgba(114, 159, 152, 1.0)',
+        david: 'rgba(114, 159, 152, 1.0)',
+        davidalejandro: '#A05FB4',
         defaultFill: 'rgba(188, 213, 209, 1.0)'
       },
       geographyConfig: {
