@@ -21,7 +21,7 @@ function App() {
       },
       element: document.querySelector('.map'),
       fills: {
-        david: 'rgba(114, 159, 152, 1.0)',
+        david: '#F58220',
         davidalejandro: '#A05FB4',
         defaultFill: 'rgba(188, 213, 209, 1.0)'
       },
@@ -63,7 +63,7 @@ function App() {
           <span
             className="indicator"
             style={{
-              backgroundColor: 'rgba(114, 159, 152, 1.0)', display: 'inline-block', width: '20px', height: '20px'
+              backgroundColor: '#F58220', display: 'inline-block', width: '20px', height: '20px'
             }}
           />
           {' '}
