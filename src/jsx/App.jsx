@@ -63,7 +63,7 @@ function App() {
           <span
             className="indicator"
             style={{
-              backgroundColor: 'rgba(188, 213, 209, 1.0)', display: 'inline-block', width: '20px', height: '20px'
+              backgroundColor: 'rgba(114, 159, 152, 1.0)', display: 'inline-block', width: '20px', height: '20px'
             }}
           />
           {' '}
