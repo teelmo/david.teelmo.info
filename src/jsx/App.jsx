@@ -17,6 +17,7 @@ function App() {
         ECU: { fillKey: 'authorHasTraveledTo' },
         CHL: { fillKey: 'authorHasTraveledTo' },
         MEX: { fillKey: 'authorHasTraveledTo' },
+        ESP: { fillKey: 'authorHasTraveledTo' },
       },
       element: document.querySelector('.map'),
       fills: {
